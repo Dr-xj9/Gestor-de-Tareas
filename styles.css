@@ -2,3 +2,42 @@
     text-decoration: line-through;
     color: green;
 }
+
+body{
+   text-align: center;
+   background-color: beige;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#lista li{
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 10px; /* Agrega padding para espacio interno */
+    margin: 5px 0; /* Agrega margen superior e inferior */
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: space-between; 
+    align-items: center; /* Centra verticalmente */
+    border-radius: 5px; /* Bordes redondeados para los ítems */
+}
+
+#lista button{
+    margin-left: 20px;
+
+}
+
+#lista button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+#lista{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto; /* Centra la lista */
+    padding: 10px; /* Agrega un padding para separación */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    background-color: antiquewhite;
+}
+
+input[type="text"] {
+    margin-bottom: 10px; /* Espacio entre el input y el botón */
+}

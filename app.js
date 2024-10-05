@@ -19,7 +19,7 @@ function crearTarea() {
     });
 
 
-    botonEliminar.textContent = "Eliminar";
+    botonEliminar.textContent = "borrar";
 
     botonEliminar.addEventListener('click', function () {
         elemento.remove()
